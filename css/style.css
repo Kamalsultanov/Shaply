@@ -1,0 +1,205 @@
+/*  */
+header{
+    background: url(../IMG/headbg.jpg) center/cover fixed;
+    height: 100vh;
+}
+nav{
+    height: 80px;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+}
+#menu { display: none;}
+#bars { 
+        font-size: 1.2em;
+        padding: 25px 0px;
+        color: #3a52bf;
+}
+nav h2{ font: 200 24px "Helvetica Neue",Arial,sans-serif ;
+    color: #666;
+    padding: 25px 0px;
+}
+#title { 
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: 20px;
+}
+#downbtn{ background: transparent; 
+    border: white 2px solid;
+}
+.container{   padding: 50px 0px;}
+.container img{width: 100%;}
+.card { padding: 10px; 
+    text-align: justify;
+}
+#wave {
+        background: url(../IMG/waveee.jpg) center/cover fixed;
+        height: 50vh;
+        display: flex;
+        align-items: center;
+        text-align: center;
+}
+.textpart{
+    padding: 20px 0;
+    text-align: center;
+}
+
+#scenery div img {
+    height: 80vh;
+    width: 100%;
+    object-fit: contain;
+}
+
+#blackbelt{ 
+    background: #0e1015;
+    height: 30vh;
+    text-align: center;
+    padding-top: 80px;
+}
+#gallery{ background-color:#0e1015;}
+.galleryitem {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+}
+
+.galleryitem img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+.overlay{ 
+    position: absolute;
+    top: 100%;
+    right: 0px;
+    width: 100%;
+    height: 100%;
+    transition: .5s;
+
+    opacity: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    color: white;
+    font: 24px Arial;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(34, 34, 34, 0.9) 100%);
+}
+.galleryitem:hover .overlay{
+    top: 0;
+    opacity: 1;
+}
+#ourcustom{ background: url(../IMG/cloudyocean.jpg) center/cover fixed;
+    padding: 30px 10px;
+    height: 70vh;
+    text-align: center;
+    
+}
+#clientcom{ display: flex;
+            align-items: center;
+}
+#clientcom i {font-size: 2em;  }
+#comment span  img{ border-radius: 80px; margin-top: 20px; }
+#companies{ height: 50vh;
+            text-align: center;
+            padding: 40px;
+        }
+#companies  div {display: flex;
+                justify-content: space-around;
+                margin-top: 50px;
+                opacity: 60%;
+}
+#companies span img{  width: 50px;
+}
+#likeit{ 
+    background: #f5f5f5;
+    min-height: 30vh;
+    padding: 20px;
+    text-align: center;
+}
+#foot{ 
+    height: 30vh;
+    background-color: #0e1015;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#foot i { padding: 0px 5px;}
+
+
+.textpart h1 { font: 200 2em "Helvetica Neue",Arial,sans-serif; padding: 10px 0;}
+.textpart p { font: 200 0.9em "Helvetica Neue",Arial,sans-serif; padding: 10px;}
+.card h1{ font: 200 1.8em "Helvetica Neue",Arial,sans-serif; padding: 10px 0;}
+.card p{ font: 200 0.9em/20px "Helvetica Neue",Arial,sans-serif; padding: 20px 0px;}
+#title h1{  font: 200 2em "Helvetica Neue",Arial,sans-serif; padding: 10px;}
+#title h3{  font: 200 1em "Helvetica Neue",Arial,sans-serif; padding: 10px;}
+#menu li a{  font: 200 0.9em "Helvetica Neue",Arial,sans-serif; padding: 0px 20px;}
+#menu i{  font-size: 0.8em; padding: 0px 25px; color: #3a52bf; }
+#blackbelt h1 { font: 200 2em "Helvetica Neue",Arial,sans-serif; padding: 10px 0;}
+#blackbelt h3{  font: 200 0.9em "Helvetica Neue",Arial,sans-serif; padding: 10px;}
+#ourcustom h1 { font: 200 2em "Helvetica Neue",Arial,sans-serif; padding: 10px 0;}
+#ourcustom p { font: 200 0.9em "Helvetica Neue",Arial,sans-serif; padding: 10px;}
+#ourcustom h3 { font: 200 0.9em "Helvetica Neue",Arial,sans-serif; padding: 10px 0;}
+#companies h1 { font: 200 2em "Helvetica Neue",Arial,sans-serif; padding: 10px 0;}
+#likeit h1 { font: 200 2em "Helvetica Neue",Arial,sans-serif; padding: 10px 6%; }
+#foot h3 { font: 200 1em "Helvetica Neue",Arial,sans-serif; padding: 10px;}
+
+.buttonconfig{ height: 50px; min-width: 180px; margin-top: 10px;}
+.txtwhit{ color: white;}
+.txtgray { color:#8c979e;}
+.bgpurple{ background: #745cf9; }
+.bggray{ background: #f5f5f5}
+
+
+@media only screen and (min-width: 768px) {
+    #bars{ display: none }
+    #menu { display: flex;
+            padding: 25px;
+    }
+    nav{ width: 100%;}
+    #title h1{  font-size: 4em; 
+                padding-top: 10%;
+     }
+    .container{ display: flex;
+                flex-direction: row;
+                justify-content: center;
+                height: 90vh;
+    }
+    .card{ padding: 50px 60px;}
+    .col45{ width: 45%;}
+    .col30{ width: 30%;}
+    #wave {
+        background: url(../IMG/waveee.jpg) center/cover fixed;
+        height: 50vh;
+        padding: 0 20%;
+        display: flex;
+        align-items: center;
+        justify-content: center;       
+        }
+        #wave h1 { font: 200 4em "Helvetica Neue",Arial,sans-serif; padding: 10px 0;}
+        #scenery div img {
+            height: 90vh;
+            width: 100%;
+            object-fit: contain;
+        }
+        #gallery {
+            display: flex;
+            flex-wrap: wrap;
+            width: 100%;
+        }
+        .galleryitem{  width: 25%;
+                    cursor: pointer;
+        }
+        #ourcustom{ 
+            padding: 5% 20%;
+        }
+        #likeit { 
+            display: flex;
+            padding: 40px 20%;
+        }
+}

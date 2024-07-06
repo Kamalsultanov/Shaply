@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Helvetica Neue';
+    src: url(../FONT/HELVETICA/HelveticaNeueThin.otf);
+}
+@font-face {
+    font-family: 'Helvetica Neue Med';
+    src: url(../FONT/HELVETICA/HelveticaNeueMedium.otf);
+    font-weight: 700;
+}
